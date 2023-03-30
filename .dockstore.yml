@@ -51,7 +51,7 @@ workflows:
       primaryDescriptorPath: /agc-examples/wdl/fastq/Dockstore.wdl
       testParameterFiles:
         - /agc-examples/wdl/fastq/input.json
-   - name: agc-fastq-read-counts
+   - name: agc-hello-world-cwl
      publish: true
-     subclass: WDL
+     subclass: CWL
      primaryDescriptorPath: /agc-examples/cwl/hello-world/Dockstore.cwl
