@@ -1,0 +1,7 @@
+name: dockstoreAgcCwlTutorialProject
+schemaVersion: 1
+contexts:
+  ctx1:
+    engines:
+      - type: cwl
+        engine: toil

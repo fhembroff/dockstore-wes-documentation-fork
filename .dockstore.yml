@@ -36,18 +36,22 @@ workflows:
    -  name: agc-hello-world
       publish: true
       subclass: WDL
-      primaryDescriptorPath: /agc-examples/hello-world/Dockstore.wdl
+      primaryDescriptorPath: /agc-examples/wdl/hello-world/Dockstore.wdl
          
    -  name: agc-hello-world-input
       publish: true
       subclass: WDL
-      primaryDescriptorPath: /agc-examples/hello-world-inputs/Dockstore.wdl
+      primaryDescriptorPath: /agc-examples/wdl/hello-world-inputs/Dockstore.wdl
       testParameterFiles:
-        - /agc-examples/hello-world-inputs/input.json
+        - /agc-examples/wdl/hello-world-inputs/input.json
          
    -  name: agc-fastq-read-counts
       publish: true
       subclass: WDL
-      primaryDescriptorPath: /agc-examples/fastq/Dockstore.wdl
+      primaryDescriptorPath: /agc-examples/wdl/fastq/Dockstore.wdl
       testParameterFiles:
-        - /agc-examples/fastq/input.json
+        - /agc-examples/wdl/fastq/input.json
+   - name: agc-fastq-read-counts
+     publish: true
+     subclass: WDL
+     primaryDescriptorPath: /agc-examples/cwl/hello-world/Dockstore.cwl
